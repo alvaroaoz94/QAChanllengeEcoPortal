@@ -12,7 +12,7 @@ This project is focused on test case automation using the [Cypress](https://www.
 1. **Clone the repository:**
 
    ```
-   git clone [repository-url]
+   git clone https://github.com/alvaroaoz94/QAChanllengeEcoPortal
     ```
 2. **Install dependencies:**   
     ```

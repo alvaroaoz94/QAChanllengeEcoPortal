@@ -1,0 +1,21 @@
+{
+  "name": "qachanllengeecoportal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "npx cypress run",
+    "cypress:run:chrome": "npx cypress run --browser chrome",
+    "cypress:run:firefox": "npx cypress run --browser firefox",
+    "test": "npm run cypress:run",
+    "test:interactive": "npx cypress open"
+  },
+  "author": "Alvaro Zavala",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.3"
+  },
+  "dependencies": {
+    "cypress-mochawesome-reporter": "^3.6.1"
+  }
+}

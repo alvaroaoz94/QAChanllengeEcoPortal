@@ -17,13 +17,16 @@ Get the clone repository of the following link and clone in your code editor of 
    
     ```
 
-2. **Go to Automation Directory:**   
-You must select the QAChallengeEcoPortal project and write that code, this command will take you to the terminal to go to the Automation directory
+2. **Go to Open the folder Project:**   
+When you already cloned the project, you should open the folder QAChallengeEcoPortal
+
+3. **Go to Automation Directory:**   
+Once you are in QAChallengeEcoPortal directory, you should open the terminal and write the following command
     ```
     cd .\3-automation\  
     ```
 
-3. **Install dependencies:**   
+4. **Install dependencies:**   
 Once you are in the correct directory, you must write the following command in the terminal to install the dependencies
     ```
     npm install

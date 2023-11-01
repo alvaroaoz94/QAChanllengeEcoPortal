@@ -1,66 +1,77 @@
 # QA Challenge ECO Portal
 
-This project is focused on test case automation using the [Cypress](https://www.cypress.io/) framework. It provides a set of test cases to ensure the proper functionality and reliability of the arstechnica Web page.
+This project automates test cases for the Ars Technica webpage using the Cypress framework, ensuring the application's functionality and reliability.
 
 ## Prerequisites
 
-- Node.js (Current LTS Version: [20.x](https://nodejs.org/))
-- npm (Comes bundled with Node.js)
-- A code editor of your choice
+Before starting, make sure you have the following installed:
+- Node.js (Current LTS Version: 20.x)
+- npm (bundled with Node.js)
+- A code editor (VSCode, Sublime Text, Atom, etc.)
 
 ## Setup
 
-1. **Clone the repository:**
-Get the clone repository of the following link and clone in your code editor of your choice, make sure to clone it to a path of your choice where you keep the folder alone to maintain good practices and order. Once you are in the choosed directory you must open the Terminal and paste this link
-   ```
-   git clone https://github.com/alvaroaoz94/QAChanllengeEcoPortal
-   
+### Clone the Repository
+
+Clone the project repository to your local machine:
+
+```bash
+git clone https://github.com/alvaroaoz94/QAChanllengeEcoPortal
+```
+
+### Open the Project Folder
+
+Navigate to the cloned project folder:
+    
+```bash
+cd QAChallengeEcoPortal
+```
+
+### Navigate to the Automation Directory
+
+Switch to the `3-automation` directory:
+
+- For Unix-based systems (macOS/Linux):
+    
+    ```bash
+    cd 3-automation/
+    ```
+- For Windows:
+    
+    ```bat
+    cd .\3-automation\
     ```
 
-2. **Go to Open the folder Project:**   
-When you already cloned the project, you should open the folder QAChallengeEcoPortal, this will be on the previously selected route
+### Install Dependencies
 
-3. **Go to Automation Directory:**   
-Once you are in QAChallengeEcoPortal directory, you should open the terminal and write the following command
-    ```
-    cd .\3-automation\  
-    ```
-
-4. **Install dependencies:**   
-Once you are in the correct directory, you must write the following command in the terminal to install the dependencies, make sure you have node.js installed or you will get an error
-    ```
+Install the required npm packages:
+    
+```bash
     npm install
-    ```
-   
+```
 
-## Run tests
-Once you have installed the dependencies and you are in the correct 3-Automation directory you should be able to run tests, i assigned a runs commands shortcuts for this project, you can see it in 3-automation/package.json rute
+## Running Tests
 
-1. **Run tests in headless mode:**
-    ```
-    npm test
-    ```
-    This command will run the tests in headless mode and generate a HTML report in the `cypress/reports/html` directory.
+Execute the tests using one of the following commands based on your preferred mode:
 
+### Headless Mode
 
-2. **Run tests in interactive mode:**
-    ```
-    npm run test:interactive
-    ```
- This command will open the Cypress Test Runner and allow you to run the tests in interactive mode. 
+Run tests without the GUI and generate an HTML report:
 
-2.1. **Step 1**
-    You have to choose E2E option in the opened window
+```bash
+npm test
+```
 
-2.2. **Step 2**
-    You have to choose the browser of your choice, preferably Google Chrome
+Reports can be found in `cypress/reports/html`.
 
-2.3. **Step 3**
-    You have to select arstechnicaTestCases link in the screen
+### Interactive Mode
 
-2.4. **Step 4**
-    Then you will face the interactive run test cases
-
+Open the Cypress Test Runner for interactive testing:
+    
+```bash
+npm run test:interactive
+```
 
 ## Author
-    Alvaro Zavala
+
+Alvaro Zavala

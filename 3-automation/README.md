@@ -14,8 +14,8 @@ Before starting, make sure you have the following installed:
 ### Clone the Repository
 
 Clone the project repository to your local machine:
----
-Get the cloned repository from the following link and clone it in the code editor of your choice, make sure to clone it in a path of your choice where you save the folder alone, to keep good practices and order. Once you are in the directory of your choice you should open Terminal and paste this link
+
+>Get the cloned repository from the following link and clone it in the code editor of your choice, make sure to clone it in a path of your choice where you save the folder alone, to keep good practices and order. Once you are in the directory of your choice you should open Terminal and paste this link
 
 ```bash
 git clone https://github.com/alvaroaoz94/QAChanllengeEcoPortal

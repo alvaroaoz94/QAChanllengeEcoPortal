@@ -11,14 +11,14 @@ This project is focused on test case automation using the [Cypress](https://www.
 ## Setup
 
 1. **Clone the repository:**
-Get the clone repository of the following link and clone in your code editor of your choice
+Get the clone repository of the following link and clone in your code editor of your choice, make sure to clone it to a path of your choice where you keep the folder alone to maintain good practices and order. Once you are in the choosed directory you must open the Terminal and paste this link
    ```
    git clone https://github.com/alvaroaoz94/QAChanllengeEcoPortal
    
     ```
 
 2. **Go to Open the folder Project:**   
-When you already cloned the project, you should open the folder QAChallengeEcoPortal
+When you already cloned the project, you should open the folder QAChallengeEcoPortal, this will be on the previously selected route
 
 3. **Go to Automation Directory:**   
 Once you are in QAChallengeEcoPortal directory, you should open the terminal and write the following command
@@ -27,13 +27,14 @@ Once you are in QAChallengeEcoPortal directory, you should open the terminal and
     ```
 
 4. **Install dependencies:**   
-Once you are in the correct directory, you must write the following command in the terminal to install the dependencies
+Once you are in the correct directory, you must write the following command in the terminal to install the dependencies, make sure you have node.js installed or you will get an error
     ```
     npm install
     ```
    
+
 ## Run tests
-Once you have installed the dependencies and you are in the correct 3-Automation directory you should be avaiable to run tests, 
+Once you have installed the dependencies and you are in the correct 3-Automation directory you should be able to run tests, i assigned in the https://vscode.dev/github/alvaroaoz94/QAChanllengeEcoPortal/blob/master/3-automation/package.json a runs commands shortcuts for this project
 
 1. **Run tests in headless mode:**
     ```
@@ -46,7 +47,12 @@ Once you have installed the dependencies and you are in the correct 3-Automation
     ```
     npm run test:interactive
     ```
-    This command will open the Cypress Test Runner and allow you to run the tests in interactive mode.
+   2.1 This command will open the Cypress Test Runner and allow you to run the tests in interactive mode. 
+   2.2 You have to choose E2E option in the opened window
+   2.3 You have to choose the browser of your choice, preferably Google Chrome
+   2.4 You have to select arstechnicaTestCases link in the screen
+
+   And you will face the interactive run test cases
 
 ## Author
     Alvaro Zavala

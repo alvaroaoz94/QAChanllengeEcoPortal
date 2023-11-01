@@ -34,7 +34,7 @@ Once you are in the correct directory, you must write the following command in t
    
 
 ## Run tests
-Once you have installed the dependencies and you are in the correct 3-Automation directory you should be able to run tests, i assigned in the https://vscode.dev/github/alvaroaoz94/QAChanllengeEcoPortal/blob/master/3-automation/package.json a runs commands shortcuts for this project
+Once you have installed the dependencies and you are in the correct 3-Automation directory you should be able to run tests, i assigned a runs commands shortcuts for this project, you can see it in 3-automation/package.json rute
 
 1. **Run tests in headless mode:**
     ```

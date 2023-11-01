@@ -47,12 +47,14 @@ Once you have installed the dependencies and you are in the correct 3-Automation
     ```
     npm run test:interactive
     ```
-   2.1 This command will open the Cypress Test Runner and allow you to run the tests in interactive mode. 
-   2.2 You have to choose E2E option in the opened window
-   2.3 You have to choose the browser of your choice, preferably Google Chrome
-   2.4 You have to select arstechnicaTestCases link in the screen
 
-   And you will face the interactive run test cases
+2.1 This command will open the Cypress Test Runner and allow you to run the tests in interactive mode. 
+2.2 You have to choose E2E option in the opened window
+2.3 You have to choose the browser of your choice, preferably Google Chrome
+2.4 You have to select arstechnicaTestCases link in the screen
+
+And you will face the interactive run test cases
+
 
 ## Author
     Alvaro Zavala

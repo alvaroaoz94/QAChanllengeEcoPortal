@@ -80,6 +80,15 @@ Open the Cypress Test Runner for interactive testing:
 npm run test:interactive
 ```
 
+Once the code has been entered, an interface will open, follow these steps:
+
++ You have to choose the E2E option in the opened window.
++ You have to choose your preferred browser, preferably Google Chrome.
++ You must select the arstechnicaTestCases link on the screen.
++ The following is the interface running the interactive execution test cases.
+
+
+
 ## Author
 
 Alvaro Zavala

@@ -57,7 +57,9 @@ Once you are in the correct directory, you must type the following command in th
 ## Running Tests
 
 Execute the tests using one of the following commands based on your preferred mode:
+```
 Once you have installed the dependencies and are in the correct 3-Automation directory you should be able to run tests, I have assigned a run command shortcut for this project, you can see it in 3-automation/package.json routing
+```
 
 ### Headless Mode
 

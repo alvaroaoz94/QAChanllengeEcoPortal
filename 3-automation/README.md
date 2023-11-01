@@ -11,7 +11,7 @@ This project is focused on test case automation using the [Cypress](https://www.
 ## Setup
 
 1. **Clone the repository:**
-Get the clone repository of the fallowing link and clone in your code editor of your choice
+Get the clone repository of the following link and clone in your code editor of your choice
    ```
    git clone https://github.com/alvaroaoz94/QAChanllengeEcoPortal
    
